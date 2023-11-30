@@ -12,7 +12,6 @@ def frequences(l: list[dict[int, int]], s:int):
     for e in l:
         res.append({list(e.items())[0][0]: list(e.items())[0][1]/s*100})
     return res
-    
 
 
     

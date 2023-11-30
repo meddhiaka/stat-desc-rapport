@@ -1,6 +1,6 @@
 def variance(l: list[int]):
     s1 = 0
-    s2 = 0
+    s2: float = 0
     i = 0
     for e in l:
         s1 += e
